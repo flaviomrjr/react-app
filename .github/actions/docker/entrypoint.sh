@@ -10,7 +10,7 @@ time=$(date)
 echo "::set-output name=time::$time"
 
 echo "::group::Some Expandable Logs"
-echo 'some stuff'
+echo "some stuff"
 echo "::endgroup"
 
-echo '::set-env name=HELLO::hello'
+echo "::set-env name=HELLO::hello"
