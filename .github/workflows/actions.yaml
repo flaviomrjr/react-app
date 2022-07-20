@@ -1,3 +1,4 @@
+name: Docker Action
 on: push
 jobs:
   testing-action:
